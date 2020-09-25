@@ -1,0 +1,281 @@
+/*    ACCUEIL    */
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+main
+{
+}
+
+header
+{
+    background-image: url(videos/coding.mp4)
+}
+
+ul
+{
+    display: flex;
+    margin: 25px;
+    color: aliceblue;
+}
+
+nav
+{
+    float: right;
+    font-size: 22px;
+}
+
+
+#logo1
+{
+    width: 8%;
+    margin-left: 20;
+}
+
+li
+{
+    list-style-type: none;
+    margin: 15px;
+}
+
+#video1
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: absolute;
+}
+
+h3
+{
+    position: relative;
+    color: azure;
+    font-size: 250%;
+    padding-left: 20%;
+    padding-top: 15%;
+    margin-top: 0px;
+}
+
+#logo2
+{
+    width: 25%;
+    height: auto;
+    position: relative;
+    padding-left: 20%;
+    opacity: 85%;
+    margin-top: 15px;
+}
+
+#sec2
+{
+    margin-top: 250px;
+    text-align: center;
+}
+
+#titre2
+{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+article
+{
+    width: 300px;
+    display: inline-block;
+    margin: 20px;
+    margin-left: 250px;
+}
+
+.icon
+{
+    
+}
+
+.icon
+{
+    width: 100px;
+    height: auto;
+}
+
+#ai
+{
+    float: right;
+    margin-right: 200px;
+}
+
+#executive
+{
+    float: right;
+    margin-right: 200px;
+}
+
+.yellowbutton
+{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #ffca4b; /*orange*/
+    cursor: pointer;
+    border: none;
+}
+.yellowbutton:hover
+{
+    letter-spacing:5px;
+}
+
+
+
+/*   CYBER SECURITY SCHOOL   */
+.div1e{
+	font-family: monospace;
+	background-color: #CCDDEE;
+	width: 500px;
+	height:700px;
+	z-index: 150;
+	float: left;
+	font-size: 18px;
+	
+
+
+}
+
+.div2e{
+	font-family: monospace;
+	background-color: #FFDDCC;
+	width: 500px;
+	height:700px;
+	z-index: 150;
+	float: left;
+	font-size: 18px;
+	
+}
+
+.div3e{
+	background-color: #CCDDEE;
+	width: 500px;
+	height:700px;
+	z-index: 150;
+	float: left;
+	font-size: 18px;
+	
+
+}
+
+.po2{
+	font-family: monospace;
+	background-color: #CCDDEE;
+	width: 1500px;
+	height:300px;
+	z-index: 350;
+	float: left;
+	font-size: 18px;
+	
+}
+
+#te1{
+	font-family: monospace;
+	text-align-last: center;
+	margin: 10px 50px 20px;
+	box-shadow: 7px 7px 20px #555;
+	border:3px solid black;
+	border-radius: 20px;
+	font-size: 18px;
+    }
+
+#te2{
+	font-family: monospace;
+	text-align: center;
+	font-style: italic;
+	font-size: 18px;
+
+}
+/* CODING SCHOOL  */
+.intro-coding {
+	
+	
+  width: center;
+  border: 1px solid #333;
+  box-shadow: 8px 8px 5px #444;
+  padding: 8px 12px;
+  background-image: linear-gradient(180deg, #ffca4b, #275fa0 40%, #88c1d0);
+text-align: center;}
+
+.Année-1-code {
+  width: left;
+  border: 1px solid #333;
+  box-shadow: 8px 8px 5px #444;
+  padding: 8px 12px;
+  background-image: linear-gradient(180deg, #275fa0, #88c1d0 40%, #ffca4b);
+  text-align: left;
+}
+.Année-2-code {
+  width: right;
+  border: 1px solid #333;
+  box-shadow: 8px 8px 5px #444;
+  padding: 8px 12px;
+  background-image: linear-gradient(180deg, #ffca4b, #88c1d0 40%, #275fa0);
+  text-align: right
+}
+
+.deuxiéme-partie-code{
+	
+	
+  width: center;
+  border: 1px solid #333;
+  box-shadow: 8px 8px 5px #444;
+  padding: 8px 12px;
+  background-image: linear-gradient(180deg, #ffca4b, #275fa0 40%, #88c1d0);
+text-align: center;}
+
+.rentrée-code {
+  width: center;
+  border: 1px solid #333;
+  box-shadow: 8px 8px 5px #444;
+  padding: 8px 12px;
+  background-image: linear-gradient(180deg, #ffca4b, #88c1d0 40%, #275fa0);
+  text-align: center;
+}
+
+.liens-code{
+	
+  width: center;
+  border: 1px solid #333;
+  box-shadow: 8px 8px 5px #444;
+  padding: 8px 12px;
+  background-image: linear-gradient(180deg, #ffca4b, #275fa0 40%, #ffca4b);
+text-align: center;}
+
+
+/*footer*/
+
+footer {
+	background-color: #88c1d0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	padding: 40px;
+}
+
+footer div {
+	color: white;
+	font-family: sans-serif;
+}
+#logofooter {
+	 width: 350px;
+	 height: 200px;
+}
+footer div h1 {
+	font-size: 1.2em;
+}
+footer div ul {
+	list-style: none;
+	font-size: 0.8em;
+}
+footer div p {
+	color: #000000;
+}
+
+
